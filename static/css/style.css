@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgb(252, 252, 252);
+}
+.merah{
+    color: #cf1f2f;
+}
+.bg-merah{
+    background-color: #cf1f2f;
+}
+
+#about{
+    background-color: rgb(247, 247, 247);
+}
+#portfolio{
+    background-color: rgb(247, 247, 247);
+}
+
+.kartu:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+.projek{
+    text-decoration: none;
+}

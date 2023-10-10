@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="static/img/Icon.png" type="image/x-icon" />
+    <title>Adyadma Renjiro</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(252, 252, 252);
+      font-family: "Montserrat", sans-serif;
+      font-family: "Poppins", sans-serif;
+    }
+    .merah {
+      color: #cf1f2f;
+    }
+    .btn-merah {
+      color: white;
+      background-color: #cf1f2f;
+    }
+    .btn-merah:hover {
+      color: white;
+      background-color: #a91c27;
+    }
+    nav div div ul li a:hover,
+    nav a.active {
+      color: #0ef;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h3 class="merah fw-bold">AR.</h3></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse fw-semibold justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fw-bold merah" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="container mb-5">
+        <div
+          class="row flex-row-reverse d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="col-md-6 d-flex justify-content-center"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+          >
+            <img
+              src="static/img/Profile.png"
+              alt=""
+              class="mt-2 mb-3"
+              width="355px"
+            />
+          </div>
+          <div class="col-md-6" data-aos="zoom-in" data-aos-duration="700">
+            <p class="fs-6">Hello, I'm</p>
+            <h1 class="fw-bold merah">ADYADMA RENJIRO</h1>
+            <p class="fs-6">
+              Junior web developer with a strong focus on creating visually
+              appealing and user-friendly websites.
+            </p>
+            <button class="btn btn-merah">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="pb-4">
+      <div class="container mt-3 mb-4">
+        <div class="row mb-5">
+          <h2
+            class="fw-bold mt-4 mb-3 merah text-center"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            About Me
+          </h2>
+
+          <!-- About -->
+          <div
+            class="col-md-6 px-3"
+            data-aos="flip-left"
+            data-aos-duration="700"
+          >
+            <h3 class="fw-semibold mt-4 mb-4 merah">Introduction</h3>
+            <p style="text-align: justify; text-indent: 0.5in">
+              As a junior web developer graduate from Muhammadiyah 2 Vocational
+              High School, specializing in software engineering, I am passionate
+              about creating innovative and user-friendly web solutions. With a
+              strong foundation in coding and a genuine interest in technology,
+              I am dedicated to leveraging my skills to contribute to the
+              ever-evolving field of web development.
+            </p>
+            <p style="text-align: justify; text-indent: 0.5in">
+              I have developed proficiency in programming languages such as
+              HTML, CSS, JavaScript, and PHP. Additionally, I am familiar with
+              frameworks like Bootstrap and have experience working with
+              databases using MySQL.
+            </p>
+          </div>
+
+          <!-- Skills -->
+          <div
+            class="col-md-6 px-3"
+            data-aos="flip-right"
+            data-aos-duration="700"
+          >
+            <h3 class="fw-semibold mt-4 mb-4 merah">My Skills</h3>
+
+            <!-- HTML -->
+            <div class="my-3">
+              <label class="mb-2 merah">HTML</label>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label=" 5px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 7px"
+              >
+                <div class="progress-bar bg-danger" style="width: 89%"></div>
+              </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="my-3">
+              <label class="mb-2 merah">CSS</label>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label=" 5px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 7px"
+              >
+                <div class="progress-bar bg-danger" style="width: 71%"></div>
+              </div>
+            </div>
+
+            <!-- JS -->
+            <div class="my-3">
+              <label class="mb-2 merah">JavaScript</label>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label=" 5px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 7px"
+              >
+                <div class="progress-bar bg-danger" style="width: 48%"></div>
+              </div>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="my-3">
+              <label class="mb-2 merah">Bootstrap</label>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label=" 5px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 7px"
+              >
+                <div class="progress-bar bg-danger" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <!-- PHP -->
+            <div class="my-3">
+              <label class="mb-2 merah">PHP</label>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label=" 5px high"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 7px"
+              >
+                <div class="progress-bar bg-danger" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container mt-3 mb-4">
+        <div class="row d-flex align-items-stretch">
+          <h2
+            class="fw-bold mt-4 mb-4 merah text-center"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            Expertise Area
+          </h2>
+          <div class="col-md-6 px-1 mt-4">
+            <div
+              class="border border-2 text-center p-3 kartu shadow-sm"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+            >
+              <img
+                src="static/img/Ex-2.png"
+                alt=""
+                class="img-fluid mb-3"
+                width="80px"
+              />
+              <h5 class="merah fw-semibold mb-3">UI UX Design</h5>
+              <p>
+                I'm a UI/UX designer, skilled in creating intuitive and visually
+                appealing digital experiences. My process includes user research
+                and wireframing.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 px-1 mt-4">
+            <div
+              class="border border-2 text-center p-3 kartu shadow-sm"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+            >
+              <img
+                src="static/img/Ex-1.png"
+                alt=""
+                class="img-fluid mb-3"
+                width="80px"
+              />
+              <h5 class="merah fw-semibold mb-3">Web Development</h5>
+              <p>
+                I'm a web developer skilled in creating user-friendly websites
+                using HTML, CSS, JavaScript, and frameworks. Explore my
+                portfolio for examples of my work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container mt-5 mb-4">
+        <div class="row">
+          <h2
+            class="fw-bold mt-4 mb-4 merah text-center"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            Latest Works
+          </h2>
+          <div
+            class="col-md-4 px-1 mb-3"
+            data-aos="flip-left"
+            data-aos-duration="700"
+          >
+            <img
+              src="static/img/Projects-1.png"
+              alt=""
+              class="img-fluid mb-2"
+            />
+            <p class="text-dark fw-semibold">
+              Cinob Photocinema Company Profile
+            </p>
+            <a href="https://cinob-photocinema.glitch.me/" class="btn btn-merah">Live Demo</a>
+          </div>
+
+          <div
+            class="col-md-4 px-1 mb-3"
+            data-aos="flip-left"
+            data-aos-duration="700"
+          >
+            <img
+              src="static/img/Dummy.png"
+              alt=""
+              class="img-fluid mb-2"
+            />
+            <p class="text-dark fw-semibold">
+              Dummy Text
+            </p>
+            <a href="" class="btn btn-merah">Live Demo</a>
+          </div>
+          <div
+            class="col-md-4 px-1 mb-3"
+            data-aos="flip-left"
+            data-aos-duration="700"
+          >
+            <img
+              src="static/img/Dummy.png"
+              alt=""
+              class="img-fluid mb-2"
+            />
+            <p class="text-dark fw-semibold">
+              Dummy Text
+            </p>
+            <a href="" class="btn btn-merah">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div
+              class="col-md-4 px-1 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="700"
+            >
+              <img
+                src="static/img/Dummy.png"
+                alt=""
+                class="img-fluid mb-2"
+              />
+              <p class="text-dark fw-semibold">
+                Dummy Text
+              </p>
+              <a href="" class="btn btn-merah">Live Demo</a>
+            </div>
+            <div
+              class="col-md-4 px-1 mb-3"
+              data-aos="flip-left"
+              data-aos-duration="700"
+            >
+              <img
+                src="static/img/Dummy.png"
+                alt=""
+                class="img-fluid mb-2"
+              />
+              <p class="text-dark fw-semibold">
+                Dummy Text
+              </p>
+              <a href="" class="btn btn-merah">Live Demo</a>
+            </div>
+          </div>
+        
+      </div>
+    </section>
+
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/navscroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
